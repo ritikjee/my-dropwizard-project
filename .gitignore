@@ -1,2 +1,49 @@
-.vscode
-target
+# Maven specific
+/target/
+!*/src/main/resources/
+!*/src/test/resources/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+# Avoid ignoring maven wrapper jar file (.mvn/wrapper)
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# IntelliJ JAR cache files
+.idea/libraries/
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VSCode specific files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+
+

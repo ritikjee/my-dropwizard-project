@@ -25,4 +25,4 @@ COPY config.yml config.yml
 EXPOSE 8080
 
 # Define the command to run the application
-CMD ["java", "-jar", "app.jar", "server", "config.yml"]
+CMD ["java", "-jar", "target/my-dropwizard-project-1.0-SNAPSHOT.jar", "server", "config.yml"]
